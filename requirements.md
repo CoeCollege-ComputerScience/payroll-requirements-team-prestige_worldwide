@@ -6,11 +6,11 @@
 * No need to track project budgets from which employees are being payed
 	-  Workers are payed from one singular project budget.
     
-    ## Design
-    * Visual - how the information is desplayed
+## Design
+* Visual - how the information is desplayed
         - View employee information
     
-    * Technical 
+* Technical 
         - Add, update, employee information
         - Calculate pay breakdown and return
         - Meets security requirements
