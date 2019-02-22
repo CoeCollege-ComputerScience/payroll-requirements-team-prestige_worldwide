@@ -5,22 +5,33 @@
 * System needs to track payroll (no other expenses)
 * No need to track project budgets from which employees are being payed
 	-  Workers are payed from one singular project budget.
-    
+
 ## Design
+
+### How Employee Data is Stored
+* Each employee has the following data associated with him/her:
+- First Name
+- Last Name
+- Employee ID
+- Salary
+	- Deductions
+- Active?
+
+
 * Visual - how the information is desplayed
         - View employee information
-    
-* Technical 
+
+* Technical
         - Add, update, employee information
         - Calculate pay breakdown and return
         - Meets security requirements
-        
+
 
 ## Legal
 
 * System meets U.S regulations
 	- E.U. has different regulations. Do these need to be met too?
-    
+
 
 
 ## Data Retention
