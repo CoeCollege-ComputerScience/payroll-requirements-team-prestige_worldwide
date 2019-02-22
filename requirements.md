@@ -18,7 +18,7 @@
 	- Active?
 
 
-* Visual - how the information is desplayed
+* Visual - how the information is displayed
 * Command Line program
 	- no GUI necessary
 
@@ -37,19 +37,31 @@
     - Meets security requirements
 
 
-## Data Retention
-
+## Storage
 * Data saved every time in one master record file
-
 * Retains payroll records of terminated employees for two years
+
+## Employee Table
+* Fields:
+ - First Name
+ - Last Name
+ - Access
+ - ID
+
+## Security
+* Two-Factor Authentication
+* Employee data encrypted
 
 ## Access Management
 * Who gets to add/remove employees?
 * Who gets to grant/revoke access privileges?
+* Different classes of user.
+	- Employee
+	- Manager (?)
 
 ## Legal
-
 * System meets U.S regulations for payroll software
+
 
 
 ## Compensation Method
