@@ -10,34 +10,47 @@
 
 ### How Employee Data is Stored
 * Each employee has the following data associated with him/her:
-- First Name
-- Last Name
-- Employee ID
-- Salary
-	- Deductions
-- Active?
+	- First Name
+	- Last Name
+	- Employee ID
+	- Salary
+		- Deductions
+	- Active?
 
 
 * Visual - how the information is desplayed
-        - View employee information
+* Command Line program
+	- no GUI necessary
+
+### Input
+* Each time a new binary file is added employee data is processed and added to master record
+
+### Output
+
+* Once a year, program generates W-2 forms based on records from the last year
+* these records are for Employee tax purposes only and are not maintained in the system
+	- the relevant detailed is stored in master record file
 
 * Technical
-        - Add, update, employee information
-        - Calculate pay breakdown and return
-        - Meets security requirements
-
-
-## Legal
-
-* System meets U.S regulations
-	- E.U. has different regulations. Do these need to be met too?
-
+    - Add, update, employee information
+    - Calculate pay breakdown and return
+    - Meets security requirements
 
 
 ## Data Retention
 
-* Retains payroll records
-* Generates W-2 forms based on records from the last year
+* Data saved every time in one master record file
+
+* Retains payroll records of terminated employees for two years
+
+## Access Management
+* Who gets to add/remove employees?
+* Who gets to grant/revoke access privileges?
+
+## Legal
+
+* System meets U.S regulations for payroll software
+
 
 ## Compensation Method
 
