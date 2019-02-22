@@ -15,12 +15,20 @@
 	- Employee ID
 	- Salary
 		- Deductions
-	- Active?
+	- Active
+	- directory pass or USPS.
 
 
 * Visual - how the information is displayed
+	- Under corrent access premission, the data could be displayed by differnce categorisations
+		- The name of Employees(A-Z)
+		- the ID in order
+		- The salary (high to low/low to high)
+		- departments
 * Command Line program
-	- no GUI necessary
+
+### no Interface & GUI
+
 
 ### Input
 * Each time a new binary file is added employee data is processed and added to master record
@@ -51,13 +59,19 @@
 ## Security
 * Two-Factor Authentication
 * Employee data encrypted
+* The data saved at both local disk and cloud on online server. once the local data missed, the data could be repaired frome cloud.
+
+
+* The higher access managemeer could login as admin or security, and it has premission to access data
 
 ## Access Management
 * Who gets to add/remove employees?
 * Who gets to grant/revoke access privileges?
 * Different classes of user.
-	- Employee
-	- Manager (?)
+	- Employee - which could view the own payroll records
+	- Manager - which could view the own palyroll cecords and any subordinate.
+	- admin/security - which could modify the data(remove files, add files), but this modification would record in the modifcation history.
+	- Board of Directors/emploer/Boss -Could view all data of emmployees and Managers, meanwhile this classes has permission view the modifcation history of admin.
 
 ## Legal
 * System meets U.S regulations for payroll software
