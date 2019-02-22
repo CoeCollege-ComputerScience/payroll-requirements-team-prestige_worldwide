@@ -40,3 +40,14 @@ List of Questions:
 20. How should information be recorded and edited? In its own dedicated function? 
 
 21. What security should be in place for viewing and editing payroll information?
+
+
+
+
+22.  What are the levels of access? Employee - manager - administrator?
+
+23. Managers - see people they manage? How much information? 
+
+24. Administrator - How do they edit? How much?
+
+25. 
