@@ -30,6 +30,34 @@
 ### no Interface & GUI
 
 
+## Functionality
+*  Core functions and command line options
+    -  addBinary( ) "-b [filenames]" 
+            adds one or more binary files
+            process and store data in master record
+    
+    - sort( )
+        sorts employee information alphabetically by name
+        
+    - display( ) "-d [employee ID's]"
+            looks up one or more employee ID's, then displays information to terminal
+            by default displays for all employees
+            - First Name
+            - Last Name
+            - Employee ID
+            - Salary
+            - Deductions
+            - Active
+            - directory pass or USPS.
+            
+    - generateW2( ) "-w [employee ID's]"
+            looks up one or more employee ID's, then generates new W2 text file
+            by default generates for all employees
+            
+    - edit/remove function?
+        
+
+
 ### Input
 * Each time a new binary file is added employee data is processed and added to master record
 
