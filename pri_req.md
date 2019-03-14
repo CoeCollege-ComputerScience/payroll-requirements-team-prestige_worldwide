@@ -1,15 +1,16 @@
-## High (essential)
+## Must have
 * Reads binary files
 * Stores information in accessable memory
 * Sorts employee records alphabetically
 * Searches for an returns specificed record
 * Calculates and generates W2 file
 
-## Medium (desired)
+## Should have (desired)
 
-## Low (optional)
+## Could have (optional)
+* System meets U.S regulations for payroll software
+* Two-Factor Authentication
+* Employee data encrypted
 
-## Other
- * System meets U.S regulations for payroll software
- * Two-Factor Authentication
- * Employee data encrypted
+## Won't have
+
