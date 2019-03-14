@@ -8,19 +8,20 @@
 
 ## Design
 
+
 ### How Employee Data is Stored
 * Each employee has the following data associated with him/her:
 	- First Name
 	- Last Name
 	- Employee ID
 	- Salary
-		- Deductions
+        - Deductions (Federal tax, state tax, medical)
 	- Active
 	- directory pass or USPS.
 
 
 * Visual - how the information is displayed
-	- Under corrent access premission, the data could be displayed by differnce categorisations
+	- Under corrent access premission, the data could be displayed by difference categorizations
 		- The name of Employees(A-Z)
 		- the ID in order
 		- The salary (high to low/low to high)
@@ -28,6 +29,34 @@
 * Command Line program
 
 ### no Interface & GUI
+
+
+## Functionality
+*  Core functions and command line options
+    -  addBinary( ) "-b [filenames]" 
+            adds one or more binary files
+            process and store data in master record
+    
+    - sort( )
+        sorts employee information alphabetically by name
+        
+    - display( ) "-d [employee ID's]"
+            looks up one or more employee ID's, then displays information to terminal
+            by default displays for all employees
+            - First Name
+            - Last Name
+            - Employee ID
+            - Salary
+            - Deductions
+            - Active
+            - directory pass or USPS.
+            
+    - generateW2( ) "-w [employee ID's]"
+            looks up one or more employee ID's, then generates new W2 text file
+            by default generates for all employees
+            
+    - edit/remove function?
+        
 
 
 ### Input
