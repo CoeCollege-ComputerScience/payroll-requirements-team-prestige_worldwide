@@ -11,6 +11,9 @@
 * System meets U.S regulations for payroll software
 * Two-Factor Authentication
 * Employee data encrypted
+* Higher access tiers
+* A list of people who can add/remove employees
 
 ## Won't have
-
+* Project budgets to track (employees all paid from single project)
+* Interface or GUI
