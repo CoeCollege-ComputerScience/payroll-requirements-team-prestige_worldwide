@@ -23,10 +23,8 @@
 
 ## Non-Functional-
 * ( Statements of quality )
+* Flexible initially a few hundred payrolls to several thousand later
 
 
 ## Implementation-
-* ( Temporary requirements to implement the project ) 
-
-
-
+* ( Temporary requirements to implement the project )
