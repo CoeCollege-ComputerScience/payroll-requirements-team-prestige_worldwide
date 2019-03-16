@@ -23,6 +23,8 @@
 * System could have the ability to display the records in a different format.
 * Let employees individually enter their own time sheets.
 * Could send emails to employees reminding them to submit their time sheets before a deadlinie.
+* A back-up files could be created once there a significant modification of payroll records. For example(the modification of employee adress). So when some error occurred, we can go back and check the back-up files.
+* The system could provide some error exceptions or usages which would reduce the invalid inputs or unexpected handling caused by users.
 
 ## Won't have
 * No need to track project budgets.
