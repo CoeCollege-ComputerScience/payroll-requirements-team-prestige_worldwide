@@ -16,7 +16,13 @@
 
 ## Could have (optional)
 * Two-Factor Authentication to maintain the security of the system.
+* System meets U.S regulations for payroll software
+* Two-Factor Authentication
+* Employee data encrypted
+* Higher access tiers
+* A list of people who can add/remove employees
 
 ## Won't have
-* No need to track project budgets.
-* No interface or GUI.
+* Project budgets to track (employees all paid from single project)
+* Interface or GUI
+
