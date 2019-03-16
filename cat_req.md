@@ -13,13 +13,28 @@
 ## Functional-
 * (Detailed statements of capability)
 * Each employee has the following data associated with him/her:
-    - First Name
+    - First Name 
     - Last Name
     - Employee ID
-    - Salary
-    - Deductions (Federal tax, state tax, medical)
+    - Salary (Monthly)
+    - Deductions 
+        Federal tax (Percent)
+        state tax (Percent)
+        medical (Fixed cost)
     - Active
     - directory pass or USPS.
+* Each empolyee record generates the following W2 data:
+    Bi-weekly gross pay (Monthly pay *12  / 26)
+    Bi-weekly medical ( Monthly medical *12 / 26)
+    Bi-weekly federal tax (Bi-weekly gross pay * federal tax / 100)
+    Bi-weekly state tax (Bi-weekly gross pay * state tax /100)
+    Bi-weekly net pay (Bi-weekly gross pay - Bi-weekly medical - Bi-weekly federal tax - Bi-weekly state tax )
+* The following data is tracked from the employer:
+    Total gross pay
+    Total medical 
+    Total federal tax
+    Total state tax
+
 
 ## Non-Functional-
 * ( Statements of quality )
