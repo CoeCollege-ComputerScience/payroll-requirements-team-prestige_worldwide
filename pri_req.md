@@ -26,6 +26,8 @@
 * A back-up files could be created once there a significant modification of payroll records. For example(the modification of employee adress). So when some error occurred, we can go back and check the back-up files.
 * The system could provide some error exceptions or usages which would reduce the invalid inputs or unexpected handling caused by users.
 
+
 ## Won't have
-* No need to track project budgets.
-* No interface or GUI.
+* Project budgets to track (employees all paid from single project)
+* Interface or GUI
+
